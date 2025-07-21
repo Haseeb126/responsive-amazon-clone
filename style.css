@@ -1,0 +1,827 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background-color: #cccccc;
+}
+
+.navbar{
+    block-size: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    block-size: 50px;
+    inline-size: 100px;
+    margin-inline-start: 0px;
+}
+
+.logo{
+
+    background-image: url("amazonlogo.jpg");
+    background-size: cover;
+    block-size: 50px;
+    inline-size: 100px;
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* box 2 */
+
+.add-first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-inline-start: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-inline-start:3px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    inline-size: 620px;
+    block-size: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    inline-size: 50px;
+    text-align: center;
+    border-start-start-radius: 4px;
+    border-end-start-radius: 4px;
+    border: none;
+}
+
+.search-option{
+    text-align: center;
+}
+
+option{
+    text-align: start;
+    font-family:sans-serif;
+    font-size: 1rem;
+}
+
+.search-input{
+    inline-size: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    inline-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-start-end-radius: 4px;
+    border-end-end-radius: 4px;
+    color: #0f1111;
+}
+
+/* box 4  */
+
+.nav-language{
+    inline-size: 70px;
+    block-size: 33px;
+    color: #d6d6d6;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;    
+}
+
+.flag{
+    inline-size: 24px;
+    block-size: 20px;
+    background-image: url(flag.png);
+    background-size: cover;
+    margin-inline-start: 1px;
+}
+
+.language{
+    inline-size: 40px;
+    block-size: 20px;
+    margin-inline-end: 0px;
+}    
+
+.lag-selector{
+    inline-size: 40px;
+    block-size: 20px;
+    font-size: 0.88rem;
+    background-color: #0f1111;
+    border-start-start-radius: 4px;
+    border-end-start-radius: 4px;
+    color: white;
+    border: 1px solid white;
+}
+/* box 5 */
+
+span{
+    font-size: 0.7rem;
+}
+
+/* box 6  */
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 7  */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Panel */
+
+.panel{
+block-size: 40px;
+background-color: #222f3d;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.panel-option p{
+    display: inline;
+}
+
+.panel-option{
+    inline-size: 70%;
+    font-size: 0.85rem;
+    margin: 15px;
+}
+
+.panel-deals{
+    
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    block-size: 350px;
+    inline-size: 98%;
+    display: flex;
+    margin-inline-start:1%;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    block-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-block-end: 25px;
+    inline-size: 90%;
+    border-radius: 4px;
+
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+/* Shop -section */
+
+.shop-section{
+    inline-size: 98%;
+    margin-inline-start: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    block-size: 350px;
+    inline-size: 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin-block-start: 15px;
+}
+
+.box p{
+    font-size: 0.8rem;
+    color: #007185;
+}
+
+.box h2{
+    font-size: 1.5rem;
+}
+
+.box1{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box1-img{
+    block-size: 70%;
+    inline-size: 95%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.box1-imgcontent{
+    inline-size: 40%;
+    block-size:40% ;
+    border-radius: 10px; 
+}
+
+.box1-img p{
+    color: black;
+    margin: 0px;
+}
+
+.box1-first-img{
+    background-image: url(Gaming-accessories\(Headfhone\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box1-second-img{
+    background-image: url(Gaming-accessories\(Keyboard\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box1-third-img{
+    background-image: url(Gaming-accessories\(Computer\ mice\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box1-forth-img{
+    background-image: url(Gaming-accessories\(Chair\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box2{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box2-img{
+    block-size: 70%;
+    inline-size: 95%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.box2-imgcontent{
+    inline-size: 40%;
+    block-size:40% ;
+    border-radius: 10px; 
+}
+
+.box2-img p{
+    color: black;
+    margin: 0px;
+}
+
+.box2-first-img{
+    background-image: url(Shop-deals-in\ -Fashion\(Jeans-under-$25\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box2-second-img{
+    background-image: url(Shop-deals-in\ -Fashion\(Tops-under-$25\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box2-third-img{
+    background-image: url(Shop-deals-in\ -Fashion\(Dresses-under-$25\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box2-forth-img{
+    background-image: url(Shop-deals-in\ -Fashion\(Shoes-under-$25\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+
+.box3{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box3-img{
+    block-size: 70%;
+    inline-size: 95%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.box3-imgcontent{
+    inline-size: 40%;
+    block-size:40% ;
+    border-radius: 10px; 
+}
+
+.box3-img p{
+    color: black;
+    margin: 0px;
+}
+
+.box3-first-img{
+    background-image: url(Refresh-your-space\(Dining\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box3-second-img{
+    background-image: url(Refresh-your-space\(Home\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box3-third-img{
+    background-image: url(Refresh-your-space\(Health-and-beauty.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box3-forth-img{
+    background-image: url(Refresh-your-space\(Kitchen\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+
+.box4{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box4-img{
+    background-image: url(Deals-in-PCs.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    block-size: 70%;
+    inline-size: 95%;
+}
+
+.box5{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box5-img{
+    block-size: 70%;
+    inline-size: 95%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.box5-imgcontent{
+    inline-size: 30%;
+    block-size:30% ;
+    border-radius: 10px; 
+}
+
+.box5-img p{
+    color: black;
+    margin: 0px;
+}
+
+.box5-img-box1{
+    inline-size: 95%;
+    block-size: 50%;
+}
+
+.box5-first-img{
+    background-image: url(Amazon-Gadget-Store\(Smartphones\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box5-second-img{
+    background-image: url(Amazon-Gadget-Store\(Laptops\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box5-third-img{
+    background-image: url(Amazon-Gadget-Store\(Tablets\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box5-forth-img{
+    background-image: url(Amazon-Gadget-Store\(TVs\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box6{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box6-img{
+    background-image: url(Toy-under-$50.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    block-size: 70%;
+    inline-size: 95%;
+}
+
+
+.box7{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box7-img{
+    block-size: 70%;
+    inline-size: 95%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+
+.box7-imgcontent{
+    inline-size: 40%;
+    block-size:40% ;
+    border-radius: 10px; 
+}
+
+.box7-img p{
+    color: black;
+    margin: 0px;
+}
+
+.box7-first-img{
+    background-image: url(Fashion-trends-you-like\(Dresses\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box7-second-img{
+    background-image: url(Fashion-trends-you-like\(Knits\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box7-third-img{
+    background-image: url(Fashion-trends-you-like\(Jackets\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box7-forth-img{
+    background-image: url(Fashion-trends-you-like\(Jewelry\).jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    inline-size: 100%;
+    block-size: 100%;
+}
+
+.box8{
+    padding-inline-start: 2%;
+    padding-inline-end: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box8-img{
+    background-image: url(Beauty-steal-under-$25.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    block-size: 70%;
+    inline-size: 95%;
+}
+
+.box8 h2{
+    font-size: 1.2rem;
+}
+
+.box9{
+    inline-size: 95%;
+    padding-inline-start: 2%;
+}
+
+.box9-image{
+    inline-size: 100%;
+    block-size: 89%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block-start: 1%;
+    margin-inline-start: -1% ;
+}
+
+.box9-img{
+    inline-size: 10%;
+    block-size: 89%;
+    border-radius: 8px;
+}
+
+.box9-first-img{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.box9-second-img{
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.box9-third-img{
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.box9-forth-img{
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.box9-fifth-img{
+    background-image: url(img5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.box9-sixth-img{
+    background-image: url(img6.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.box9-seventh-img{
+    background-image: url(img7.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.box9-eightth-img{
+   background-image: url(img8.jpg);
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-size: cover;
+}
+
+.box9-ninth-img{
+   background-image: url(img9.jpg);
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-size: cover;
+}
+
+.box10{
+    inline-size: 100%;
+    block-size: 200px;
+    background-color: white;
+    margin-block-start: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sign{
+    inline-size: 15%;
+    block-size: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-inline-start: 42.5%;
+}
+.sign p{
+    font-size: 0.85rem;
+    padding-block-start: 2px;
+    padding-block-end: 2px;
+    text-align: center;
+}
+.sign button{
+    background-color: rgba(251, 165, 5, 0.789);
+    font-size: 1.56rem;
+    border-radius: 4px;
+    border: none;
+}
+.sign a{
+    text-decoration: none;
+    color: green;
+}
+
+.foot-first-panel{
+    block-size: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-second-panel{
+    background-color: #222f3d;
+    color: white;
+    block-size: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-second-panel ul{
+    margin-block-start: 4%;
+}
+
+.foot-second-panel p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.foot-second-panel a{
+    display: block;
+    font-size: 0.85;
+    color: white;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.foot-second-panel a:hover{
+    text-decoration: underline;
+}
+
+.foot-third-panel{
+    background-color: #0f1111;
+    color: white;
+    border-block-start: 0.5px solid white;
+    block-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-forth-panel{
+    block-size: 100px;
+    inline-size: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages{
+    inline-size: 80%;
+    text-align: center;
+}
+
+.foot-forth-panel a{
+    padding-inline-start: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+    margin: 0.3%;
+}
